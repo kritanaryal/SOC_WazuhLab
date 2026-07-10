@@ -17,7 +17,7 @@ The goal wasn't just to install software; it was to simulate a real enterprise e
 
 ## ⚠️ The Reality Check: What You Actually Need
 
-When I first tried building this, I severely underestimated how resource-hungry a SIEM is. The Wazuh Indexer (which is basically Elasticsearch) will silently crash if it runs out of memory. **Learn from my pain and don't skimp on RAM.**
+When I first tried building this, I severely underestimated how resource-hungry a SIEM is. The Wazuh Indexer (which is basically Elasticsearch) will silently crash if it runs out of memory. **I made the mistake of not giving the server enough memory at first. Make sure you assign at least 8GB of RAM, or the database will crash on you.**
 
 ### The Hardware (My VM Setup)
 * **The SIEM Server (Ubuntu 22.04 LTS):** 
