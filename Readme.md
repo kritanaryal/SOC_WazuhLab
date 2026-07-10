@@ -1,6 +1,6 @@
 # 🛡️ Building My First SOC: The ShadowCipher Wazuh Lab
 
-Hey, I'm Kritan Aryal. I'm a cybersecurity student and an aspiring SOC Analyst. 
+Hey,I'm a cybersecurity student and an aspiring SOC Analyst. 
 
 I built this lab because I was tired of just reading about SIEMs, threat hunting, and incident response in textbooks. I wanted to get my hands dirty, break things, and actually see what an attack looks like from the defender's side. 
 
