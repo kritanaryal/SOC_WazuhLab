@@ -39,7 +39,7 @@ I assigned a static IP to my Wazuh Server so the agents wouldn't lose connection
 Before touching Wazuh, the Ubuntu server needs to be ready. This is exactly what I ran on my fresh install.
 
 ```bash
-# 1. Update everything. Never start a project on a stale OS.
+# 1. Update everything. Never start a project without doing this.
 sudo apt update && sudo apt upgrade -y
 
 # 2. Install the basics needed to pull down the Wazuh packages.
